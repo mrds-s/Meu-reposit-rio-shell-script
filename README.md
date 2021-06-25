@@ -26,7 +26,6 @@ if [ $opcao -eq 1 ]; then
 soma= $ (( $ num1 +  $ num2))  # realizando a soma
 	echo  " $num1 + $num2 = $resultado"
 
- 
   elif [ $opcao -eq 2 ]; then
     echo "$[num1-num2] = $resultado"
     
@@ -39,5 +38,4 @@ soma= $ (( $ num1 +  $ num2))  # realizando a soma
         else
           echo "Opcao invalida. Tente novamente."
          fi
-}                                                                                                                                       
-                           
+}                                                                                                                           
